@@ -21,3 +21,25 @@ appbarUser() => AppBar(
       ),
       backgroundColor: Colors.deepPurple,
     );
+
+appbarTextField() => AppBar(
+      centerTitle: true,
+      title: const Text(
+        "TextField",
+        style: TextStyle(
+          color: StylesColors.white,
+        ),
+      ),
+      backgroundColor: Colors.black,
+    );
+
+appbarSwitchListTile() => AppBar(
+      centerTitle: true,
+      title: const Text(
+        "SwitchListTile",
+        style: TextStyle(
+          color: StylesColors.white,
+        ),
+      ),
+      backgroundColor: Colors.black,
+    );

@@ -12,7 +12,7 @@ class UserViewModel extends GetxController {
 
   void fetchUsers() async {
     await Future.delayed(
-      Duration(seconds: 3),
+      Duration(seconds: 5),
     );
     var userList = [
       User(name: 'John', email: 'john@gmail.com'),

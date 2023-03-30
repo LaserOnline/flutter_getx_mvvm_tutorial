@@ -14,7 +14,7 @@ class PageHome extends StatelessWidget {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
-      appBar: appbarHome("Page Home"),
+      appBar: appbarHome("G E T X"),
       body: SingleChildScrollView(
         child: Center(
           child: Column(
@@ -30,36 +30,29 @@ class PageHome extends StatelessWidget {
               ButtonGoPageUser(
                 TextStyle: TextStyleButtonUser,
                 Colors: StylesColors.yellow,
-                Title: "Page Test01",
-                Page: "user",
+                Title: "Firebase Login Google",
+                Page: "firebase",
                 Width: width,
               ),
               ButtonGoPageUser(
                 TextStyle: TextStyleButtonUser,
                 Colors: StylesColors.amber,
-                Title: "Page Test02",
-                Page: "user",
+                Title: "TextField",
+                Page: "textfield",
                 Width: width,
               ),
               ButtonGoPageUser(
                 TextStyle: TextStyleButtonUser,
                 Colors: StylesColors.orange,
-                Title: "Page Test03",
+                Title: "TextFromField",
                 Page: "user",
                 Width: width,
               ),
               ButtonGoPageUser(
                 TextStyle: TextStyleButtonUser,
                 Colors: StylesColors.secondary,
-                Title: "Page Test04",
-                Page: "user",
-                Width: width,
-              ),
-              ButtonGoPageUser(
-                TextStyle: TextStyleButtonUser,
-                Colors: StylesColors.test,
-                Title: "Page Test05",
-                Page: "user",
+                Title: "Switch List Tile",
+                Page: "swichlisttile",
                 Width: width,
               ),
             ],
