@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<string name="app_name">flutter login tutorial</string>
+<string name="facebook_app_id">1319729595243358</string>
+<string name="fb_login_protocol_scheme">fb1319729595243358</string>
+<string name="facebook_client_token">2ec11c79702c202a63ed78ca3a5d59fa</string>
+</resources>

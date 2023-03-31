@@ -36,6 +36,13 @@ class PageHome extends StatelessWidget {
               ),
               ButtonGoPageUser(
                 TextStyle: TextStyleButtonUser,
+                Colors: StylesColors.secondary,
+                Title: "Facebook",
+                Page: "facebook",
+                Width: width,
+              ),
+              ButtonGoPageUser(
+                TextStyle: TextStyleButtonUser,
                 Colors: StylesColors.amber,
                 Title: "TextField",
                 Page: "textfield",
@@ -50,7 +57,7 @@ class PageHome extends StatelessWidget {
               ),
               ButtonGoPageUser(
                 TextStyle: TextStyleButtonUser,
-                Colors: StylesColors.secondary,
+                Colors: StylesColors.white,
                 Title: "Switch List Tile",
                 Page: "swichlisttile",
                 Width: width,

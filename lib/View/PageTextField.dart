@@ -1,7 +1,6 @@
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_getx_mvvm_tutorial/Widget/UserData.dart';
 import 'package:get/get.dart';
 import 'package:get/get_connect/http/src/utils/utils.dart';
@@ -17,7 +16,6 @@ class PageTextField extends StatefulWidget {
 
 class _PageTextFieldState extends State<PageTextField> {
   final usernameController = TextEditingController();
-
   final passwordController = TextEditingController();
 
   //* สร้าง ObscureText ด้วย Rx และกำหนดค่าเริ่มต้นเป็น true

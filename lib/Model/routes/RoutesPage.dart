@@ -1,3 +1,4 @@
+import 'package:flutter_getx_mvvm_tutorial/View/PageFacebook.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import '../../View/PageHome.dart';
@@ -12,6 +13,7 @@ class Routes {
   static const String firebase = "/firebase";
   static const String textfield = "/textfield";
   static const String swichlisttile = "/swichlisttile";
+  static const String facebook = "/facebook";
   static final routes = [
     GetPage(
       name: home,
@@ -32,6 +34,10 @@ class Routes {
     GetPage(
       name: swichlisttile,
       page: () => PageSwichListTile(),
+    ),
+    GetPage(
+      name: facebook,
+      page: () => FacebookLoginScreen(),
     ),
   ];
 }
